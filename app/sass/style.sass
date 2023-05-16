@@ -40,6 +40,7 @@ body
     margin-left: auto 
     margin-right: auto
     box-sizing: border-box
+    border: 1px dashed #797979
 .logo 
     width: 199px
     display: block 
@@ -74,6 +75,9 @@ body
     margin-top: 20px
     margin-left: auto 
     margin-right: auto
+    transition: all 0.3s
+.button:hover 
+    opacity: 0.7
 .button:hover 
     color: #fff
 .no 
@@ -82,6 +86,8 @@ body
     text-decoration: underline
     margin-top: 24px 
     display: block
+.no:hover 
+    color: #000
 .footer 
     text-align: center
     background: #C2C2C2
@@ -103,9 +109,11 @@ body
     a 
         color: #000 
         text-decoration: none 
-        font-weight: 700
+        font-weight: 900
         font-size: 14px
         padding: 5px 0
+    a:hover 
+        text-shadow:  -0.1px -0.1px 0px #000
     span 
         font-size: 14px 
         padding: 0 5px
@@ -125,6 +133,9 @@ body
     img 
         width: 30px
         margin: 0 13px
+        opacity: 0.6
+    img:hover 
+       opacity: 1
 @import "media"
 
 
